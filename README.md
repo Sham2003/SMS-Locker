@@ -65,6 +65,8 @@ The app has been converted from an XML view-based implementation into a modern *
 3. Connect a device (recommended) or use an emulator (enable SMS in emulator).
 4. Run the app.
 
+**ADMIN APP:** THE app requires DEVICE_ADMIN FEATURE as it is a security app for your personal use. You can review the code it needs that admin permission to lock the app
+
 **Permissions:** The app requires `RECEIVE_SMS`, `READ_SMS` (if reading existing messages), `ACCESS_FINE_LOCATION` (for locate), and optionally `POST_NOTIFICATIONS` on newer Android versions. Compose screens include runtime permission flows.
 
 ---
@@ -77,7 +79,7 @@ The app has been converted from an XML view-based implementation into a modern *
 
 ## 📜 License
 
-MIT — do whatever but credit the original author.
+MIT — do whatever.
 
 ---
 
