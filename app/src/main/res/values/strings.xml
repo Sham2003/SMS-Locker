@@ -1,26 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMSLocker</string>
-    <string name="toggle">Toggle</string>
-    <string name="add_password">Add Password</string>
-    <string name="password_title">Password Title</string>
-    <string name="password_manager">Password Manager</string>
-    <string name="enter_new_password">Enter new password</string>
-    <string name="back">Back</string>
-    <string name="invisible_password">********</string>
-    <string name="view_password">View Password</string>
-    <string name="edit_password">Edit Password</string>
-    <string name="delete_password">Delete Password</string>
-    <string name="edit_old_password">Edit old password</string>
-    <string name="save_password">Save Password</string>
-    <string name="my_locker">My Locker</string>
-    <string name="eye_text">👁</string>
-    <string name="edit_text">Edit</string>
-    <string name="save_text">Save</string>
-    <string name="delete_text">Delete</string>
-    <string name="lock_screen">Lock Screen</string>
-    <string name="lock_history">Lock History</string>
-    <string name="add">Add</string>
-    <string name="add_new_password">Add Password</string>
-    <string name="cancel">Cancel</string>
-    <string name="alarm_lock">Alarm Lock</string>
+    <string name="app_name">SMSLocker\n</string>
 </resources>

@@ -32,6 +32,7 @@ class AppPreferences(context: Context) {
         private const val KEY_COMMAND_LOCK = "cmd_lock"
         private const val KEY_COMMAND_LOCATE = "cmd_locate"
         private const val KEY_COMMAND_ALARM = "cmd_alarm"
+        private const val KEY_COMMAND_ADMIN = "cmd_admin"
         private const val KEY_LOCK_LOGS = "lock_logs"
         private const val MAX_LOG_SIZE = 20
     }
@@ -47,8 +48,8 @@ class AppPreferences(context: Context) {
 
     // Commands
     var adminCommand: String
-        get() = prefs.getString(KEY_COMMAND_LOCK, "ADMIN")!!
-        set(value) = prefs.edit { putString(KEY_COMMAND_LOCK, value) }
+        get() = prefs.getString(KEY_COMMAND_ADMIN, "ADMIN")!!
+        set(value) = prefs.edit { putString(KEY_COMMAND_ADMIN, value) }
 
     var lockCommand: String
         get() = prefs.getString(KEY_COMMAND_LOCK, "LOCK")!!

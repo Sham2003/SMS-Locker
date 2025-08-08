@@ -59,6 +59,9 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.gms.play.services.location)
     implementation(libs.gson)
+    implementation(libs.androidx.material.icons.extended)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
 
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)

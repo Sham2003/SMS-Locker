@@ -20,7 +20,6 @@ import androidx.core.content.ContextCompat
 
 import com.sham.smslocker.AlarmScreenActivity
 import com.sham.smslocker.data.LockLog
-import com.sham.smslocker.MY_lOG_TAG
 import com.sham.smslocker.data.AppPreferences
 import java.util.Locale
 
@@ -33,6 +32,8 @@ fun getTimeString(t : Long): String {
 
     return formattedDate
 }
+
+val MY_lOG_TAG = "SMSReceiver"
 
 class SmsReceiver : BroadcastReceiver() {
 
@@ -47,6 +48,8 @@ class SmsReceiver : BroadcastReceiver() {
         val lockCommand = preferences.lockCommand
         val locateCommand = preferences.locateCommand
         val alarmCommand = preferences.alarmCommand
+
+        Log.d(MY_lOG_TAG,"$adminCommand 0 $lockCommand 1 $locateCommand 2 $alarmCommand")
 
         for (sms in newMessages){
             val messageBody = sms.messageBody
